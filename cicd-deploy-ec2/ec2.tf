@@ -8,7 +8,7 @@ provider "aws" {
 # store the terraform state file in s3
 terraform {
   backend "s3" {
-    bucket  = "aosnote-terraform-state-buckets"
+    bucket  = "ex1-terraform-state-buckets"
     key     = "build/terraform.tfstate"
     region  = "ap-south-1"
     profile = "default"
